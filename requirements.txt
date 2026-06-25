@@ -1,0 +1,42 @@
+fastapi
+uvicorn[standard]
+python-multipart
+pydantic-settings
+
+# LLM + agent
+langchain
+langchain-openai
+langchain-community
+langgraph
+
+# Vector store
+qdrant-client
+
+# Embeddings
+sentence-transformers
+
+# PDF parsing
+pypdf2
+
+# Auth
+python-jose[cryptography]
+passlib[bcrypt]
+
+# Observability
+langfuse
+
+# Logging
+structlog
+
+# Rate limiting
+slowapi
+
+# HTTP client
+httpx
+
+# Evaluation
+ragas
+
+# Testing
+pytest
+pytest-asyncio
